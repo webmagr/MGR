@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Esto es una prueba.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        
+        
+        <form id="miform" name="miform" method="post" action="clase.php">
+            <center>
+               <font size= "6" color ="blue"> <b><i>
+                  Escriba Una Palabra
+               </i></b></font>
+               <br>
+            <input type="text" value="" name="palabra">
+               <br><br>
+            <input type="submit" value="Analizar Cadena" name="analizar">
+            </center>
+            </form>
+             <form id="miform2" name="miform2" method="post" action="clase.php">
+            <center>
+               <font size= "6" color ="blue"> <b><i>
+                  Escriba un Número para saber si es Primo o no es Primo
+               </i></b></font>
+               <br>
+            <input type="text" value="" name="palabra">
+               <br><br>
+            <input type="submit" value="Numero" name="$num">
+            </center>
+            </form>
+        
+        <H1>Ejemplo de formulario. Comparo números</H1> 
+            <FORM ACTION="clase.php" METHOD="GET"> 
+               Introduzca el primer número:
+                <INPUT TYPE="text" NAME="numero1"><BR> 
+               Introduzca el segundo número:
+               <INPUT TYPE="text" NAME="numero2"><BR> 
+               <INPUT TYPE="submit" VALUE="Compara"> 
+               <INPUT TYPE="reset" VALUE="Limpia">
+            </FORM> 
+        
+                        <b>DETERMINE SI es PRIMO<br> 
+            (n°primo es aquel que tiene 2 divisores la unidad y el mismo) 
+            <form method="POST" action="clase.php"> 
+                <table border=1 bgcolor="#33CCFF"> 
+                <tr> <td><b>ingrese el numero <td><input type="text" name="num"> </tr> 
+                <tr> <td><input type="submit" value="ejecutar"> <td><input type="reset" value="limpiar"></tr> 
+            </table>
+
+         Pagina en la que podemos saber si un año es bisiesto o no
+              <form method="post" action="clase.php">
+                    Ingrese el Año:
+                    <input type="text" name="anyo">
+                    <br>  
+                    <input type="submit" value="calcular">
+              </form>
+    </body>
+</html>
