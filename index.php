@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-Esto es una prueba.
+Esto es una prueba de modificacion de texto.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
